@@ -69,17 +69,6 @@ export default function Home() {
 						onClick={setCaretPositionToEnd}
           />
           <p className={styles.preview} ref={previewRef}></p>
-          <p className={styles.footer}>
-            Crafted by{" "}
-            <a
-              className={styles.span}
-              href="https://github.com/gouravkhunger"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Gourav
-            </a>
-          </p>
         </div>
       </main>
     </div>
